@@ -123,8 +123,11 @@ header {
 }
 
 .hero img {
-  width: 100%;
-  height: auto;
+  width: 100%; /* Sesuaikan ukuran gambar dengan lebar kontainer */
+  max-width: 1200px; /* Tetapkan ukuran maksimum untuk gambar */
+  height: auto; /* Pastikan rasio aspek tetap */
+  margin: 0 auto; /* Pusatkan gambar */
+  display: block;
 }
 
 .hero-content {

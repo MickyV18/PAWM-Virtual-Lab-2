@@ -31,6 +31,18 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
+      <img
+        src="{% static 'images/home_background.jpg' %}"
+        alt="Hero Background"
+        style="
+          width: 100%;
+          height: auto;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+        "
+      />
       <div class="overlay"></div>
       <div class="content">
         <h1>Selamat Datang di LabXplore</h1>
@@ -43,6 +55,7 @@
         <a href="{% url 'login' %}" class="start-button">Mulai Sekarang</a>
       </div>
     </section>
+
     <script src="{% static 'js/script.js' %}"></script>
   </body>
 </html>

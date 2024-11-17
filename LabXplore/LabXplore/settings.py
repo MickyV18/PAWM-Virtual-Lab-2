@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'users',
-    'corsheaders',
 ]
 
 AUTHENTICATION_BACKENDS = (

@@ -693,7 +693,6 @@ button:hover {
 .hero-section {
   position: relative;
   height: 100vh;
-  background: url("/static/images/home_bg.png");
   display: flex;
   align-items: center;
   justify-content: center;
